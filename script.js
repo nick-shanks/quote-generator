@@ -2,7 +2,8 @@
 
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://quotes.rest/qod.json", false);
+xhr.open("GET", "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=movies/", false);
+xhr.setRequestHeader("X-Mashape-Authorization", "M2TjGCFFdymshrsUeT83gsnpDChWp18pzKpjsnVY7luUvFA0mU")
 xhr.onload = function() {
     if (xhr.status === 200) {
         document.getElementById("quote").innerHTML = xhr.responseText
