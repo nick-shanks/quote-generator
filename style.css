@@ -1,0 +1,32 @@
+
+
+
+#quote {
+  background-color: lightblue;
+  width: 40%;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 4%;
+  margin-bottom: 5px;
+}
+
+#author {
+  font-style: italic;
+}
+
+body {
+  background-color: lightgrey;
+  width: 80%;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #8e8eea;
+}

@@ -4,18 +4,27 @@
 <head>
     <title></title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+      <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Quote Generator</h1>
+<body onload="changeQuote()">
+
+<h2>Quote Generator</h2>
 
     <p id="quote"></p>
+    <p id="author"></p>
 
-
-</body>
+    <button type="button" onClick="changeQuote()">New Quote</button>
+    <br />
+  <!-- <a id="button" class="twitter-share-button" href="https://twitter.com/share" Tweet </a> -->
+  <div id="container"></div>
 
 <script src="script.js"></script>
+</body>
+
+
 
 </html>
